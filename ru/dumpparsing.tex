@@ -213,7 +213,9 @@
                 \item<1-> Общий размер данных свыше \textbf{150}MB
                 \item<2-> XML в кодировке CP1251
         \end{itemize}
-        \begin{lstlisting}[linewidth=\textwidth,xleftmargin=0.04\textwidth,basicstyle=\fontsize{14pt}{14}\bf\ttfamily\color{black},linebackgroundcolor={\btLstHL<2>{1}}]
+        \begin{lstlisting}[linewidth=\textwidth,xleftmargin=0.04\textwidth,basicstyle=\fontsize{14pt}{14}\bf\ttfamily\color{black},linebackgroundcolor={\btLstHL<1>{0}%
+                                                                                                                                                        \btLstHL<2>{1}%
+                                                                                                                                                        }]
 <?xml version="1.0" encoding="windows-1251"?>
 <reg:register ...>
         <content id="656" ...> ... </content>
@@ -249,7 +251,8 @@
                 \item<3-> Не забываем про кодировку
                 \item<4-> Ловим каждый элемент
         \end{itemize}
-        \begin{lstlisting}[linewidth=0.75\textwidth,xleftmargin=0.04\textwidth,linebackgroundcolor={\btLstHL<2>{3}%
+        \begin{lstlisting}[linewidth=0.75\textwidth,xleftmargin=0.04\textwidth,linebackgroundcolor={\btLstHL<1>{0}%
+                                                \btLstHL<2>{3}%
                                                 \btLstHL<3>{4}%
                                                 \btLstHL<4>{6}%
                                                 }]
